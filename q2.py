@@ -21,6 +21,7 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 def q2(start, end):
     lista = []
+    math = 0
     for i in range(start, end+1):
         if math.sqrt(i) == int(math.sqrt(i)):
             lista.append(i)
