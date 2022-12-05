@@ -32,9 +32,9 @@ def q4(s):
         return 0
     C = 1 
     for I in range(len(L)):
-        if L[i].isupper():
+        if L[I].isupper():
             C = C + 1
-        if L[i] == ' ':
+        if L[I] == ' ':
             C = C - 1
     return C
 
