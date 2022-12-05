@@ -39,7 +39,7 @@ def q3(arr, d):
             for k, z in enumerate(arr):
                 if i == k or  j == k:
                     continue
-                 if i < j and j > k:
+                 if i < j and j < k:
                     if y - x == d and z - y == d:
                         n += 1
     return N
