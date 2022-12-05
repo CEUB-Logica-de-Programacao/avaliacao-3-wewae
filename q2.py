@@ -24,7 +24,7 @@ def q2(start, end):
     QP = []
     for N in range(start, end+1):
         if math.sqrt(N) == int(math.sqrt(N)):
-            QP.append(i)
+            QP.append(N)
     return QP
    
 
