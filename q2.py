@@ -19,10 +19,14 @@
 # ```
 #
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
-
+import math
 def q2(start, end):
-    # Escreva seu código aqui
-    return []
+    lista = []
+    for i in range(start, end+1):
+        if math.sqrt(i) == int(math.sqrt(i)):
+            lista.append(i)
+    return lista
+   
 
 
 if __name__ == '__main__':

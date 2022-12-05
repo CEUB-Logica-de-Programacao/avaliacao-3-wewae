@@ -52,9 +52,8 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q5(s):
-    # Escreva seu código aqui
-    return False
-
+	return
+		
 
 if __name__ == '__main__':
     print(q5('abcc'))
