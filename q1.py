@@ -28,8 +28,8 @@ def q1(heights):
          if br > maior:
               maior = br
          elif br == maior:
-             n += 1
-     return n
+             N += 1
+     return N
    
 
 
