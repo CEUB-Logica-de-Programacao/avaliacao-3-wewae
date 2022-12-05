@@ -28,13 +28,13 @@
 
 def q4(s):
     L = list(s)
-    if len(lista) = 0:
+    if len(lista) == 0:
         return 0
     C = 1 
     for I in range(len(lista)):
         if L[i].isupper():
             C = C + 1
-        if L[i] = ' ':
+        if L[i] == ' ':
             C = C - 1
     return C
 
