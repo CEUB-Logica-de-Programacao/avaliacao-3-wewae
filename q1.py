@@ -25,9 +25,9 @@ def q1(heights):
      M = 0
      N = 1
      for br in heights:
-         if br > maior:
-              maior = br
-         elif br == maior:
+         if br > M:
+              M = br
+         elif br == M:
              N += 1
      return N
    
