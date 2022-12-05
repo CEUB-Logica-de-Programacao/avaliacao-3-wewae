@@ -20,9 +20,13 @@
 #
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
-def q2(start, end):
-    # Escreva seu código aqui
-    return []
+def q2(start, end)
+    QP = []
+    for N in range(start, end+1):
+        if math.sqrt(N) == int(math.sqrt(N)):
+            QP.append(i)
+    return QP
+   
 
 
 if __name__ == '__main__':
