@@ -52,15 +52,6 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q5(s):
-
-
-if __name__ == "__main__":
-	str= "aabbcd"
-
-	if (isValidString(str)):
-		print("True")
-	else:
-		print("False")
 		
 
 if __name__ == '__main__':
