@@ -27,9 +27,16 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q4(s):
-    # Escreva seu código aqui
-    return 0
-
+    L = list(s)
+    if len(lista) = 0:
+        return 0
+    C = 1 
+    for I in range(len(lista)):
+        if L[i].isupper():
+            C = C + 1
+        if L[i] = ' ':
+            C = C - 1
+    return C
 
 if __name__ == '__main__':
     print(q4('hexaVemEsseAno'))
