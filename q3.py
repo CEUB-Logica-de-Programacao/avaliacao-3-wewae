@@ -37,7 +37,7 @@ def q3(arr, d):
             if i == j:
                 continue
             for k, z in enumerate(arr):
-                if i == k or  j == k
+                if i == k or  j == k:
                     continue
                  if i < j and j > k:
                     if y - x == d and z - y == d:
