@@ -52,6 +52,7 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q5(s):
+	return
 		
 
 if __name__ == '__main__':
