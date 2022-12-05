@@ -41,7 +41,7 @@ def q3(arr, d):
                      continue
                 if i < j and j < k:
                     if y - x == d and z - y == d:
-                        n += 1
+                        N += 1
     return N
                     
   
