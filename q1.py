@@ -30,7 +30,7 @@ def q1(heights):
          elif br == maior:
              n += 1
      return n
-    return 0
+   
 
 
 if __name__ == '__main__':
