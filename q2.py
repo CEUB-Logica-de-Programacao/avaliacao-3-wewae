@@ -23,7 +23,7 @@ def q2(start, end):
     lista = []
     math = 0
     for i in range(start, end+1):
-        if math.sqrt(i) == str(math.sqrt(i)):
+        if math.sqrt(i) == math.sqrt(i):
             lista.append(i)
     return lista
  
